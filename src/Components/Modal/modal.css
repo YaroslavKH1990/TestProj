@@ -1,0 +1,41 @@
+.modal {
+	visibility: hidden;
+}
+
+.modal_active {
+	visibility: visible;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal_content {
+	padding: 10px;
+	background-color: rgb(238, 238, 238);
+}
+
+p {
+	margin: 0;
+}
+
+p:nth-child(1) {
+	font-weight: bold;
+}
+
+p:nth-child(2n) {
+	margin-bottom: 15px;
+}
+
+.input_wrap {
+	display: flex;
+}
+
+.input_invest {
+	margin-right: 10px;
+}
