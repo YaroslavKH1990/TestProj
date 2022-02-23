@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './loanItem.css';
 
 const LoanItem = ({ name, checked, setModalActive, element, modalActive }) => {
-	// const [check, setcheck] = useState(false)
-
 	console.log(checked);
 
 	return (

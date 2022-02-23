@@ -16,7 +16,7 @@ const Modal = ({
 		setInput(input.value);
 	};
 
-	const ff = () => {
+	const checkInputValue = () => {
 		sumValue < Number(input)
 			? alert('insufficient funds')
 			: setSumValue(sumValue - Number(input));
@@ -53,7 +53,7 @@ const Modal = ({
 									},
 								},
 								setChecked('visible'),
-								ff(),
+								checkInputValue(),
 								setInput('')
 							)
 						}
